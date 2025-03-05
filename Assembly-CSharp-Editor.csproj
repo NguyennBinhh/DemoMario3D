@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{81C6B1C3-C9FE-B62E-EDA8-3D28C2BC8E29}</ProjectGuid>
+    <ProjectGuid>{8389CFCF-BF44-7F4F-0C9E-FA644D2A912B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -1165,15 +1165,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{FFC81B6B-6DEF-BF2C-5A2F-19544284CAEB}</Project>
+      <Project>{A3D82234-5A2C-51C0-F7A4-F561D3B88BBF}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{7D37FAD6-7A25-3D3D-4E27-3F55CF77F9B6}</Project>
+      <Project>{2863560C-2F11-3921-2641-632B45C44D25}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Beautify.Universal.Runtime.csproj">
-      <Project>{2F12B506-E454-B18C-D325-4925734668D4}</Project>
+      <Project>{A4E5F40E-49E2-FF69-8487-3F54BB53FC25}</Project>
       <Name>Beautify.Universal.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

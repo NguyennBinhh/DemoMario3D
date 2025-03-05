@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2F12B506-E454-B18C-D325-4925734668D4}</ProjectGuid>
+    <ProjectGuid>{A4E5F40E-49E2-FF69-8487-3F54BB53FC25}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Beautify.Universal.Runtime</AssemblyName>

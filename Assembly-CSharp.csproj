@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7D37FAD6-7A25-3D3D-4E27-3F55CF77F9B6}</ProjectGuid>
+    <ProjectGuid>{2863560C-2F11-3921-2641-632B45C44D25}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -165,6 +165,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Scripts\TikTok\Login.cs" />
     <Compile Include="Assets\Scripts\WaterCameraEffectController.cs" />
     <Compile Include="Assets\Scripts\ItemManager.cs" />
     <Compile Include="Assets\Scripts\Camera\SetChild.cs" />
@@ -190,7 +191,9 @@
     <Compile Include="Assets\Spherical Skybox\Move.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\AntiGravityExitRotate.cs" />
-    <Compile Include="Assets\Scripts\TikTok\Login.cs" />
+    <Compile Include="Assets\Layer Lab\Scripts\PanelControl.cs" />
+    <Compile Include="Assets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\UIParticleSystem.cs" />
+    <Compile Include="Assets\Layer Lab\Scripts\PanelView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -210,6 +213,7 @@
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Models\CharacterTexturesAndAnim\LuigiStuff\Luigi\info.txt" />
+    <None Include="Assets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\hidden particle.shader" />
     <None Include="Assets\Shaders\Unlit-NoFog.shader" />
     <None Include="Assets\Models\Wii U - Mario Kart 8 - Toad Harbor\Toad Harbor\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -236,6 +240,7 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\UI\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\UIAdditive.shader" />
     <None Include="Assets\Beautify\URP\Demo\DemoSources\Shaders\TextureLerp.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
@@ -1288,11 +1293,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{FFC81B6B-6DEF-BF2C-5A2F-19544284CAEB}</Project>
+      <Project>{A3D82234-5A2C-51C0-F7A4-F561D3B88BBF}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Beautify.Universal.Runtime.csproj">
-      <Project>{2F12B506-E454-B18C-D325-4925734668D4}</Project>
+      <Project>{A4E5F40E-49E2-FF69-8487-3F54BB53FC25}</Project>
       <Name>Beautify.Universal.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
