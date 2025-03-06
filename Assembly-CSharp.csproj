@@ -69,6 +69,8 @@
     <Compile Include="Assets\Scenes\TestFolderMats\EnterWater.cs" />
     <Compile Include="Assets\Scripts\TikTok\Effect.cs" />
     <Compile Include="Assets\8K Skybox Pack Free\Example Scenes\Script\RotateCamera.cs" />
+    <Compile Include="Assets\Art\Copy\Hovl Studio\HSFiles\Scripts\HS_ParticleCollisionInstance.cs" />
+    <Compile Include="Assets\Layer Lab\Scripts\PanelView.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scripts\Camerafollow.cs" />
     <Compile Include="Assets\Scripts\RotatePlayerJumpPanel.cs" />
@@ -77,6 +79,7 @@
     <Compile Include="Assets\Models\Water Park\Track\EmissionFlashing.cs" />
     <Compile Include="Assets\Scripts\General\UICornersGradient.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\Layer Lab\Scripts\PanelControl.cs" />
     <Compile Include="Assets\Scripts\Camera\MirrorMainCamera.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\TikTok\Connect.cs" />
@@ -93,6 +96,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraLocationTracker.cs" />
     <Compile Include="Assets\Scenes\LoadSceneTemp.cs" />
+    <Compile Include="Assets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\UIParticleSystem.cs" />
     <Compile Include="Assets\Scripts\OpponentItemManager.cs" />
     <Compile Include="Assets\Scripts\Crates.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -122,6 +126,7 @@
     <Compile Include="Assets\Scenes\DesignPatten\ObjPooling.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Art\Copy\Hovl Studio\HSFiles\Scripts\HS_EffectSound.cs" />
     <Compile Include="Assets\Scripts\TikTok\GiftEventArgs.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -184,6 +189,7 @@
     <Compile Include="Assets\Scenes\WaveRoad.cs" />
     <Compile Include="Assets\colliderInAir.cs" />
     <Compile Include="Assets\Scripts\ChainChompBall.cs" />
+    <Compile Include="Assets\Art\Copy\Hovl Studio\HSFiles\Scripts\HS_FrontMover.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\CameraRotateAntigravity.cs" />
@@ -191,9 +197,6 @@
     <Compile Include="Assets\Spherical Skybox\Move.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\AntiGravityExitRotate.cs" />
-    <Compile Include="Assets\Layer Lab\Scripts\PanelControl.cs" />
-    <Compile Include="Assets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\UIParticleSystem.cs" />
-    <Compile Include="Assets\Layer Lab\Scripts\PanelView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -204,6 +207,7 @@
     <None Include="Assets\Shaders\Matcap-EdgedParticleWithFog.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\Art\Copy\Hovl Studio\Epic toon VFX 2\Prefabs\Punches\Readme.txt" />
     <None Include="Assets\8K Skybox Pack Free\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -211,16 +215,21 @@
     <None Include="Assets\Models\CharacterTexturesAndAnim\Wii U - Mario Kart 8 - Toad\Toad\info.txt" />
     <None Include="Assets\Beautify\_README FIRST!.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+    <None Include="Assets\Art\Copy\Hovl Studio\HSFiles\Shaders\Add_Fresnel.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Models\CharacterTexturesAndAnim\LuigiStuff\Luigi\info.txt" />
     <None Include="Assets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\hidden particle.shader" />
+    <None Include="Assets\Art\Copy\Hovl Studio\HSFiles\Shaders\Blend_TwoSides.shader" />
+    <None Include="Assets\Art\Copy\Hovl Studio\Epic toon VFX 2\Demo scene\Readme.txt" />
     <None Include="Assets\Shaders\Unlit-NoFog.shader" />
+    <None Include="Assets\Art\Copy\Hovl Studio\HSFiles\Shaders\Blend_CenterGlow.shader" />
     <None Include="Assets\Models\Wii U - Mario Kart 8 - Toad Harbor\Toad Harbor\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Editor Default Resources\nu Assets\Shared\Shaders\CanvasChannels.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Art\Copy\Hovl Studio\HSFiles\Shaders\Lightning.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Shaders\Matcap-SoftParticleWithFog.shader" />
@@ -233,12 +242,13 @@
     <None Include="Assets\Beautify\URP\Demo\README FIRST!.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Models\CharacterTexturesAndAnim\Shy Guy Stuff\info.txt" />
+    <None Include="Assets\Art\Copy\Hovl Studio\HSFiles\Shaders\Add_CenterGlow.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Editor Default Resources\nu Assets\Shared\Shaders\CanvasOpaque.shader" />
     <None Include="Assets\Shaders\Matcap-ParticleWithFog.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\UI\License.txt" />
+    <None Include="Assets\Art\UI\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\UIAdditive.shader" />
     <None Include="Assets\Beautify\URP\Demo\DemoSources\Shaders\TextureLerp.shader" />
