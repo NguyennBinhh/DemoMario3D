@@ -72,6 +72,9 @@ public class RACE_MANAGER : MonoBehaviour
 
     void Awake()
     {
+        RACE_STARTED = false;
+        RACE_COMPLETED = false;
+        raceFinishStuff = false;
         Application.targetFrameRate = 60;
     }
     // Start is called before the first frame update
@@ -87,15 +90,7 @@ public class RACE_MANAGER : MonoBehaviour
     void Update()
     {
 
-        if (InputManager.Instance.EscKeyDown())
-        {
-            RACE_STARTED = false;
-            RACE_COMPLETED = false;
-            raceFinishStuff = false;
-            SceneManager.LoadScene("WhiteScreen");
-             
-
-}
+       
 
         if (startCountDownInternalTimer)
         {
