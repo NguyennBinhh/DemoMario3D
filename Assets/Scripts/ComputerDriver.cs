@@ -1069,7 +1069,7 @@ public class ComputerDriver : MonoBehaviour
                 for (int j = 0; j < tireRenderers.Length; j++)
                 {
                     //glow color
-                    tireRenderers[j].material.SetColor("Color_B652FD79", Color.LerpUnclamped(tireRenderers[j].material.GetColor("Color_B652FD79"), Color.black, 7 * Time.deltaTime));
+                 //   tireRenderers[j].material.SetColor("Color_B652FD79", Color.LerpUnclamped(tireRenderers[j].material.GetColor("Color_B652FD79"), Color.black, 7 * Time.deltaTime));
                     //center color
                  //   tireRenderers[j].material.SetColor("Color_89B4C299", Color.LerpUnclamped(tireRenderers[j].material.GetColor("Color_89B4C299"), Color.black, 7 * Time.deltaTime));
                 }

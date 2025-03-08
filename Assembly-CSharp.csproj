@@ -72,6 +72,7 @@
     <Compile Include="Assets\Art\Copy\Hovl Studio\HSFiles\Scripts\HS_ParticleCollisionInstance.cs" />
     <Compile Include="Assets\Layer Lab\Scripts\PanelView.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\Sound\UIContrellerSound.cs" />
     <Compile Include="Assets\Scripts\Camerafollow.cs" />
     <Compile Include="Assets\Scripts\RotatePlayerJumpPanel.cs" />
     <Compile Include="Assets\Scripts\JumpToAnimationTime.cs" />
@@ -154,8 +155,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Presets\SimpleCameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Scripts\Sound\SoundController.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Scripts\Input\KeyInputEvent.cs" />
     <Compile Include="Assets\Scripts\Camera\SetSceneBuffer.cs" />
     <Compile Include="Assets\Scripts\ComputerDriverSounds.cs" />
     <Compile Include="Assets\Scripts\Items\Banana.cs" />
@@ -186,6 +189,7 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Items\OrbitingItems.cs" />
     <Compile Include="Assets\Beautify\URP\Demo\DemoSources\Scripts\Demo.cs" />
+    <Compile Include="Assets\Scripts\Sound\AudioClick.cs" />
     <Compile Include="Assets\Scenes\WaveRoad.cs" />
     <Compile Include="Assets\colliderInAir.cs" />
     <Compile Include="Assets\Scripts\ChainChompBall.cs" />
@@ -196,12 +200,8 @@
     <Compile Include="Assets\Scripts\ScoreCount.cs" />
     <Compile Include="Assets\Spherical Skybox\Move.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\Scripts\AntiGravityExitRotate.cs" />
     <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
-    <Compile Include="Assets\Scripts\Sound\SoundController.cs" />
-    <Compile Include="Assets\Scripts\Sound\UIContrellerSound.cs" />
-    <Compile Include="Assets\Scripts\Sound\AudioClick.cs" />
-    <Compile Include="Assets\Scripts\Input\KeyInputEvent.cs" />
+    <Compile Include="Assets\Scripts\AntiGravityExitRotate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

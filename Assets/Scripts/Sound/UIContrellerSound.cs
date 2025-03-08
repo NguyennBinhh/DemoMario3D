@@ -28,7 +28,8 @@ public class UIContrellerSound : MonoBehaviour
         SoundController.instance.SetSound_Music(this.Slider_Music.value);
         for(int i = 0; i < this.MusicSound.Length; i++)
         {
-            this.MusicSound[i].volume = this.Slider_Music.value; 
+            if(this.MusicSound[i] != null)
+                this.MusicSound[i].volume = this.Slider_Music.value; 
         }    
     }
 
@@ -36,7 +37,8 @@ public class UIContrellerSound : MonoBehaviour
     {
         for (int i = 0; i < this.SFXSound.Length; i++)
         {
-            this.SFXSound[i].volume = this.Slider_SFX.value;
+            if (this.SFXSound[i] != null)
+                this.SFXSound[i].volume = this.Slider_SFX.value;
         }
         SoundController.instance.SetSound_SFX(this.Slider_SFX.value);
 
@@ -46,7 +48,8 @@ public class UIContrellerSound : MonoBehaviour
     {
         for (int i = 0; i < this.MusicSound.Length; i++)
         {
-            this.MusicSound[i].mute = !this.CheckBox_Music.isOn;
+            if (this.MusicSound[i] != null)
+                this.MusicSound[i].mute = !this.CheckBox_Music.isOn;
         }
         SoundController.instance.SetEnableMusic(this.CheckBox_Music.isOn ? 1 : 0);
     }
@@ -55,7 +58,8 @@ public class UIContrellerSound : MonoBehaviour
     {
         for (int i = 0; i < this.SFXSound.Length; i++)
         {
-            this.SFXSound[i].mute = !this.CheckBox_SFX.isOn;
+            if (this.SFXSound[i] != null)
+                this.SFXSound[i].mute = !this.CheckBox_SFX.isOn;
         }
         SoundController.instance.SetEnableSFX(this.CheckBox_SFX.isOn ? 1 : 0);
     }
@@ -64,13 +68,19 @@ public class UIContrellerSound : MonoBehaviour
     {
         for (int i = 0; i < this.MusicSound.Length; i++)
         {
-            this.MusicSound[i].volume = PlayerPrefs.GetFloat("Sound_Music");
-            this.MusicSound[i].mute = PlayerPrefs.GetInt("Music", 1) != 1;
+            if (this.MusicSound[i] != null)
+            {
+                this.MusicSound[i].volume = PlayerPrefs.GetFloat("Sound_Music");
+                this.MusicSound[i].mute = PlayerPrefs.GetInt("Music", 1) != 1;
+            }
         }
         for (int i = 0; i < this.SFXSound.Length; i++)
         {
-            this.SFXSound[i].volume = PlayerPrefs.GetFloat("Sound_SFX");
-            this.SFXSound[i].mute = PlayerPrefs.GetInt("SFX", 1) != 1;
+            if (this.SFXSound[i] != null)
+            {
+                this.SFXSound[i].volume = PlayerPrefs.GetFloat("Sound_SFX");
+                this.SFXSound[i].mute = PlayerPrefs.GetInt("SFX", 1) != 1;
+            }
         }
     }    
 }
